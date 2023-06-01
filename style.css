@@ -1,0 +1,277 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #c888dd);
+}
+header{
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 22%;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #13ff62 67%,
+    #de1486 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   text-emphasis-color:transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+   font-size: 50px;
+  }
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+
+.main{
+   position: relative;
+    background:
+    linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+    height: 500px;
+    width: 500px;
+     margin-left: 500px;
+     margin-top: 3%;
+   
+    transform: translate(-50%,50%);
+    border: 2px solid rgb(19, 19, 20);
+    border-radius: 20px;
+    -webkit-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both
+}
+
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+
+
+#longurl{
+    position: relative;
+    top: 20%;
+    left: 18%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    -webkit-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+}
+
+#shorten{
+    position: relative;
+    top: 30%;
+    left: 40%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(19, 53, 223);
+    -webkit-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+    box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+}
+
+#shorten:hover{
+    background-color: skyblue;
+}
+
+#shorturl{
+    position: relative;
+    top: 40%;
+    left: 18%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    -webkit-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+    box-shadow: 18px 22px 32px 8px rgba(0,0,0,0.75);
+}
+
+#copy{
+    position: relative;
+    top: 41%;
+    left: 9%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+}
+
+#copy:hover{
+    background-color: skyblue;
+}
+
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(160, 0, 0);
+}/* Media Queries */
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    /* Styles for phones and small devices */
+    header {
+      font-size: 30px;
+      margin-left: 0;
+    }
+  
+    .main {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    #longurl
+    {
+        width: 70%;
+        left: 8%;
+    }
+    #shorturl {
+      width: 70%;
+      left: 5%;
+    }
+    
+    #copy {
+      left: -25px;
+    }
+  
+    .main p {
+      font-size: 30px;
+      width: 90%;
+      left: 5%;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    header {
+      font-size: 40px;
+      margin: auto;
+      margin-left: 7%;
+    }
+  
+    .main {
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+    #longurl,
+    #shorturl {
+      width: 70%;
+      left: 10%;
+    }
+    
+    #copy {
+      left: -5px;
+    }
+  
+    .main p {
+      font-size: 40px;
+      width: 80%;
+      left: 10%;
+    }
+  }
+  
+  /* Additional media queries for larger screens if needed */
+  
